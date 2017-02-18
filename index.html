@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Lauren Madigan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+		<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img height="200px" width="200px" src="images/lauren.jpg" alt="" /></span>
+							<h1>Lauren Madigan</h1>
+							<p>Software Developer</p>
+						</header>
+
+						<section>
+							<ul class="actions">
+								<li><div class="button" id="projects">Projects</div></li>
+							</ul>
+							<ul class="icons">
+								<li><a href="mailto:laurenmadigan51@gmail.com" class="fa-envelope">Email</a></li>
+								<li><a href="https://github.com/lmadigan" class="fa-github">Github</a></li>
+								<li><a href="https://www.linkedin.com/in/laurenmadigan/" class="fa-linkedin">Linked In</a></li>
+							</ul>
+						</section>
+					</section>
+
+			</div>
+
+			<section id="three" class="main style1 special">
+				<div class="container">
+					<header class="major">
+						<h2>Projects</h2>
+					</header>
+					<div class="row 150%">
+						<div class="4u 12u$(medium)">
+							<span class="image fit"><img src="images/joshtree.png" alt="" /></span>
+							<span class="writing">
+								<div><h3>Airbnb Yelp Overlay</h3></div>
+								<div id="p"><p>An open source <strong>Chrome Extension</strong> to enhance the booking experience of Airbnb users by generating
+									a map of the rental surrounded by the top 20 Yelp listings.</p></div>
+								<ul class="actions">
+									<li><a href="https://lmadigan.github.io/airbnb-yelp-chrome/" class="button" id="button1">View Live</a></li>
+								</ul>
+							</span>
+						</div>
+						<div class="4u 12u$(medium)">
+							<span class="image fit"><img src="images/500.png" alt="" /></span>
+							<span class="writing">
+								<div><h3>Trails500</h3></div>
+								<div id="p"><p>Trails500 is an easy to use, single page web application that allows users to connect, explore,
+									and share experiences through photos.</p></div>
+								<ul class="actions">
+									<li><a href="http://www.trails500.global/" class="button" id="button1">View Live</a></li>
+								</ul>
+						</span>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<span class="image fit"><img src="images/inheritage_map.png" alt="" /></span>
+							<span class="writing">
+								<div><h3>Inheritage</h3></div>
+								<div id="p"><p>Inheritage is a fun, easy to use application that allows the general public to access ethnically
+									relevant genetic information. </p></div>
+								<ul class="actions">
+									<li><a href="http://inheritage.herokuapp.com/" class="button" id="button1">View Live</a></li>
+								</ul>
+							</span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<footer id="footer">
+				<ul class="copyright">
+					<a href="/docs/LaurenMadiganResume.pdf" download="w3logo">
+  					Download Resume
+					</a>
+				</ul>
+			</footer>
+
+
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+
+				var el = document.getElementById("projects");
+				el.addEventListener("click", scrollToThree);
+				function scrollToThree() {
+					console.log("hi");
+					$('html, body').animate({
+    				scrollTop: $("#three").offset().top
+						}, 1000);
+				}
+			</script>
+
+	</body>
+</html>
+
+<!-- <a href="#" class="fa-facebook">Facebook</a> -->
