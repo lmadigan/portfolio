@@ -1,0 +1,215 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+
+/*
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Reset */
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+	body {
+		line-height: 1;
+	}
+
+	ol, ul {
+		list-style: none;
+	}
+
+	blockquote, q {
+		quotes: none;
+	}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	body {
+		-webkit-text-size-adjust: none;
+	}
+  
+  @media screen and (max-width: 480px) {
+
+		html, body {
+			min-width: 320px;
+		}
+
+	}
+
+	body.is-loading *, body.is-loading *:before, body.is-loading {
+		-moz-animation: none !important;
+		-webkit-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+		-moz-transition: none !important;
+		-webkit-transition: none !important;
+		-ms-transition: none !important;
+		transition: none !important;
+	}
+
+	html {
+		height: 100%;
+	}
+
+	body {
+		height: 100%;
+		background-color: #ffffff;
+
+		background-repeat: repeat,			no-repeat,			no-repeat;
+		background-size: 100px 100px, cover,				cover;
+		background-position: top left,		center center,		bottom center;
+		background-attachment: fixed,			fixed,				fixed;
+	}
+
+
+		body.is-loading:after {
+			opacity: 1;
+		}
+
+/* Type */
+
+	body, input, select, textarea {
+		color: #414f57;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 14pt;
+		font-weight: 300;
+		line-height: 2;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+	}
+
+		@media screen and (max-width: 1680px) {
+
+			body, input, select, textarea {
+				font-size: 11pt;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			body, input, select, textarea {
+				font-size: 10pt;
+				line-height: 1.75;
+			}
+
+		}
+
+#body-wrapper{
+  height: 100%;
+  width: 100%,
+  display: flex,
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+#photo-wrapper{
+  background-image: url('../../images/barcelona1.jpg');
+  height: 600px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+#header-wrapper{
+  padding-top: 20px;
+  height: 80;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#left-header{
+  color: #ffffff;
+  margin-left: 45px;
+  font-size: 20;
+  display: inline-block;
+  font-weight: bolder;
+}
+
+#right-header{
+  border-radius: 3px;
+  line-height: 1em;
+  padding: 0.6em 0.75em;
+  text-decoration: none;
+  background-color: #03a7ea;
+  color: #ffffff;
+  margin-right: 45px;
+  font-size: 20;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#right-header:hover{
+  background: #96dad1 !important;
+  border-color: #96dad1;
+}
+
+#inner-photo-wrapper{
+  margin-top: 30px;
+  background: white;
+  opacity: 0.7;
+  border-radius: 10px;
+  height: 300px;
+  width: 70%;
+  display: inline-flex;
+  padding: 50;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#two-lines{
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  border-bottom: 2px solid #03a7ea;
+  border-top: 2px solid #03a7ea;
+}
+
+#page-title{
+  text-transform: uppercase;
+  color: #03a7ea;
+  font-size: 35;
+  font-weight: bold;
+}
+}
+
+#title-content{
+  padding: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  letter-spacing: 0.1em;
+  color: #03a7ea;
+}
+
+#title-wrapper{
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
