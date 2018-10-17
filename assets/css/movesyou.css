@@ -48,7 +48,7 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
-  
+
   @media screen and (max-width: 480px) {
 
 		html, body {
@@ -204,7 +204,14 @@
   padding-left: 60px;
   padding-right: 60px;
   letter-spacing: 0.1em;
-  color: #03a7ea;
+}
+
+#lauren-link{
+	color: #03a7ea;
+	font-weight: bold;
+	text-decoration-line: underline;
+	text-decoration-color: #03a7ea;
+	text-decoration-style: dotted;
 }
 
 #title-wrapper{
@@ -212,4 +219,33 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+#demo-link{
+	width: 100%;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#demo-button {
+	border: 1px solid #03a7ea;
+	color: #03a7ea;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#demo-button:hover {
+	border: 1px solid #96dad1;
+	color: #96dad1;
+}
+
+#content-warpper{
+	display: flex;
+	flex-direction: column;
+	background-color: #e9edf1;
 }
