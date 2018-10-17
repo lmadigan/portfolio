@@ -291,6 +291,7 @@
 	color: #03a7ea;
 	font-weight: bold;
 	font-size: 35px;
+
 }
 
 #features{
@@ -304,7 +305,7 @@
 
 #feature-1{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
@@ -315,4 +316,9 @@
 
 #feature-description{
 	max-width: 400px;
+  padding: 50px;
+  font-size: 20;
+  text-align: center;
+  letter-spacing: 1;
+  color: #bfbfbf;
 }
