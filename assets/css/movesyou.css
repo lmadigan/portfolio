@@ -158,9 +158,17 @@
 	text-align: center;
 	align-items: center;
 	justify-content: center;
-	padding-right: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: 20px;
 	font-size: 22;
 	font-weight: bold;
+}
+
+#github:hover{
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
 }
 
 #github-a {
@@ -353,5 +361,17 @@
 }
 
 #footer{
-	background-color: #6bd4c8;
+	background-color: #055979;
+  display: flex;
+  justify-content: center;
+}
+
+#footer-text{
+	color: white;
+	font-size: 10;
+	height: 50;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
