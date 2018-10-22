@@ -127,6 +127,7 @@
 
 #photo-wrapper{
   background-image: url('../../images/barcelona1.jpg');
+	background-repeat: no-repeat;
   height: 600px;
   display: flex;
   justify-content: flex-start;
@@ -149,6 +150,26 @@
   font-size: 20;
   display: inline-block;
   font-weight: bolder;
+}
+
+#github {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding-right: 30px;
+	font-size: 22;
+	font-weight: bold;
+}
+
+#github-a {
+	text-decoration: none;
+}
+
+#right-header-container {
+	display: flex;
+	flex-direction: row;
 }
 
 #right-header{
